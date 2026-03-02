@@ -144,10 +144,11 @@ def answer_f(problem: str,chain,category):
     """
     while True:
         try:
-            answer = eval(chain.invoke({"question":str(problem)+"Create a Python code for solve that problem"}))
+            answer = int(chain.invoke({"question":str(problem)+"Create a Python code for solve that problem"}))
             gc.collect()
-            return answer
-            break
+            if 0<answer<99999:
+                return answer
+                break
         except:
             pass
 
@@ -192,5 +193,6 @@ def main():
 #print(pd.read_csv("/kaggle/input/ai-mathematical-olympiad-progress-prize-3/reference.csv
 #example out
 print(pd.read_csv("/kaggle/input/ai-mathematical-olympiad-progress-prize-3/sample_submission.csv"))
+
 
 main()
