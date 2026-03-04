@@ -133,6 +133,8 @@ Cada submission se ejecuta dos veces (*double-run evaluation*).
 * [How to Run a 3B Reasoning Model](#)
 
 **Datasets**
+* [https://huggingface.co/datasets/AI-MO/NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT)
+* [https://huggingface.co/datasets/AI-MO/NuminaMath-TIR](https://huggingface.co/datasets/AI-MO/NuminaMath-TIR)
 * [OpenMathReasoning (NVIDIA)](#)
 * [FineMath (HuggingFace)](#)
 * [Problemas oficiales IMO](#)
